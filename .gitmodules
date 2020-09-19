@@ -1,3 +1,4 @@
 [submodule "lib/unit-test"]
 	path = lib/unit-test
-	url = https://gitee.com/dongli85/fortran-unit-test
+	url = https://github.com/JHenneberg/fortran-unit-test
+	branch = visual_studio
