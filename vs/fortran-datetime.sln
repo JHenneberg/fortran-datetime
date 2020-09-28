@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "fortran-datetime_lib", "fortran-datetime_lib\fortran-datetime_lib.vfproj", "{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "fortran-datetime_test", "fortran-datetime_test\fortran-datetime_test.vfproj", "{A6A79509-5B9E-4B27-BD64-53717E5C77AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A} = {0EF42375-BB9F-4F98-8249-9B4A49F0C47A}
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412} = {AE7FF088-2E52-47FB-B3BE-4844C43C0412}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "fortran-unit-test_lib", "..\lib\unit-test\vs\fortran-unit-test_lib\fortran-unit-test_lib.vfproj", "{AE7FF088-2E52-47FB-B3BE-4844C43C0412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x86.Build.0 = Debug|Win32
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x86.ActiveCfg = Release|Win32
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x86.Build.0 = Release|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x86.Build.0 = Debug|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x86.ActiveCfg = Release|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x86.Build.0 = Release|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x86.Build.0 = Debug|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x86.ActiveCfg = Release|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784BA50F-A5DB-4AC6-98B8-27345C884668}
+	EndGlobalSection
+EndGlobal
