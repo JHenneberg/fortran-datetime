@@ -15,20 +15,34 @@ Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "fortran-unit-test_lib", "..
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x64.ActiveCfg = Debug|x64
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x64.Build.0 = Debug|x64
 		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x86.ActiveCfg = Debug|Win32
 		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Debug|x86.Build.0 = Debug|Win32
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x64.ActiveCfg = Release|x64
+		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x64.Build.0 = Release|x64
 		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x86.ActiveCfg = Release|Win32
 		{0EF42375-BB9F-4F98-8249-9B4A49F0C47A}.Release|x86.Build.0 = Release|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x64.ActiveCfg = Debug|x64
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x64.Build.0 = Debug|x64
 		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x86.ActiveCfg = Debug|Win32
 		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Debug|x86.Build.0 = Debug|Win32
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x64.ActiveCfg = Release|x64
+		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x64.Build.0 = Release|x64
 		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x86.ActiveCfg = Release|Win32
 		{A6A79509-5B9E-4B27-BD64-53717E5C77AA}.Release|x86.Build.0 = Release|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x64.ActiveCfg = Debug|x64
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x64.Build.0 = Debug|x64
 		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x86.ActiveCfg = Debug|Win32
 		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Debug|x86.Build.0 = Debug|Win32
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x64.ActiveCfg = Release|x64
+		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x64.Build.0 = Release|x64
 		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x86.ActiveCfg = Release|Win32
 		{AE7FF088-2E52-47FB-B3BE-4844C43C0412}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
